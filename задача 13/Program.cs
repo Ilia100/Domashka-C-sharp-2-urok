@@ -10,12 +10,14 @@
 
 int thirdnumber(int x, int z)
 {
-return (x / z)  - (x / (z*10))*10;
+return (x / z) % 10;
 }
+
+
 
 int razryad(int y)
 {
-    int count = 1;
+    int count = 10;
     while ((y/count)>1000)
     {
 count = count*10;

@@ -8,9 +8,7 @@
 
 int secondNumber(int x)
 {
-{
 return (x / 10)  - (x / 100)*10;
-}
 }
 
 Console.WriteLine($"введите трехзначное число");
